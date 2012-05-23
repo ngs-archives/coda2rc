@@ -1,0 +1,27 @@
+[submodule "Plug-ins/Markdown.codaplugin"]
+	path = Plug-ins/Markdown.codaplugin
+	url = git://github.com/Ibmurai/Markdown.codaplugin
+[submodule "Modes/PHP-HTML.mode"]
+	path = PHP-HTML.mode
+	url = git://github.com/bobthecow/PHP-HTML.mode.git
+[submodule "Modes/Mustache.mode"]
+	path = Mustache.mode
+	url = git://github.com/bobthecow/Mustache.mode.git
+[submodule "Modes/Markdown.mode"]
+	path = Markdown.mode
+	url = git://github.com/bobthecow/Markdown.mode.git
+[submodule "Modes/YAML.mode"]
+	path = YAML.mode
+	url = git://github.com/bobthecow/YAML.mode.git
+[submodule "Modes/Twig-HTML.mode"]
+	path = Twig-HTML.mode
+	url = git://github.com/bobthecow/Twig-HTML.mode.git
+[submodule "Modes/Twig-JavaScript.mode"]
+	path = Twig-JavaScript.mode
+	url = git://github.com/bobthecow/Twig-JavaScript.mode.git
+[submodule "Modes/Twig-XML.mode"]
+	path = Twig-XML.mode
+	url = git://github.com/bobthecow/Twig-XML.mode.git
+[submodule "Modes/LESS.mode"]
+	path = LESS.mode
+	url = git://github.com/monoceroi/LESS.mode.git
