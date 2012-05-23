@@ -1,6 +1,6 @@
 # Coda 2 Configurations
 
-    $ git clone git@github.com:ngs/coda2rc.git ~/Application\ Support/Coda\ 2
-    $ cd Coda\ 2
+    $ git clone git@github.com:ngs/coda2rc.git ~/Library/Application\ Support/Coda\ 2
+    $ cd ~/Library/Application\ Support/Coda\ 2
     $ git submodule init
     $ git submodule update
