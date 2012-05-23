@@ -1,0 +1,22 @@
+/*
+ * My new Arduino Sketch
+ *
+ * My description of my project.
+ * ----------------------------------
+ * $Author: $
+ * $Date: $
+ * $Revision: $
+ * ----------------------------------
+ */
+
+void setup()  {
+    
+
+
+}
+
+void loop()  {
+    
+
+
+}

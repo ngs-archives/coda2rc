@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Rowan Simms  code@rowansimms.com -->
+<!-- project homepage: https://code.google.com/p/arduino-syntax-for-coda/  -->
+<syntax>
+
+    <head>
+        <name>Arduino</name>
+        <autocompleteoptions use-spelling-dictionary="yes" />
+        <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@]]></charsintokens> 
+    </head>
+
+    <states>
+        
+        <default id="Base">
+
+            <keywords id="Arduino Functions" scope="language.function" useforautocomplete="yes">
+
+                <string>digitalRead</string>
+                <string>digitalWrite</string>
+                <string>analogRead</string>
+                <string>analogWrite</string>
+                <string>analogReference</string>
+                <string>pinMode</string>
+                
+                <string>millis</string>
+                <string>micros</string>
+                <string>delay</string>
+                <string>delayMicroseconds</string>
+                
+                <string>min</string>
+                <string>max</string>
+                <string>abs</string>
+                <string>constrain</string>
+                <string>map</string>
+                <string>pow</string>
+                <string>sqrt</string>
+                
+                <string>sin</string>
+                <string>cos</string>
+                <string>tan</string>
+                        
+                <string>randomSeed</string>
+                <string>random</string>
+
+                <string>lowByte</string>
+                <string>highByte</string>
+                <string>bitRead</string>
+                <string>bitWrite</string>
+                <string>bitSet</string>
+                <string>bitClear</string>
+                <string>bit</string>
+
+                <string>attachInterrupt</string>
+                <string>detachInterrupt</string>
+
+                <string>interrupts</string>
+                <string>noInterrupts</string>
+
+                <string>Serial</string>
+                <string>Serial1</string>
+                <string>Serial2</string>
+                <string>Serial3</string>
+                <string>Stream</string>
+                <string>print</string>
+                <string>println</string>
+
+                <string>tone</string>
+                <string>noTone</string>
+                <string>shiftOut</string>
+                <string>shiftIn</string>
+                <string>pulseIn</string>
+                
+                <string>begin</string>
+                <string>available</string>
+                <string>read</string>
+                <string>flush</string>
+                <string>find</string>
+                <string>findUntil</string>
+                <string>peek</string>
+                <string>readBytes</string>
+                <string>readBytesUntil</string>
+                <string>parseInt</string>
+                <string>parseFloat</string>
+                <string>setTimeout</string>
+                <string>parseInt</string>
+                
+                <string>serialEvent</string>
+                <string>serialEvent1</string>
+                <string>serialEvent2</string>
+                <string>serialEvent3</string>
+
+            </keywords>
+
+            <keywords id="Status Keywords" scope="constant.numeric.keyword" casesensitive="no" useforautocomplete="yes">
+              <string>true</string>
+              <string>false</string>
+              <string>high</string>
+              <string>low</string>
+              <string>input</string>
+              <string>output</string>
+              <string>LSBFIRST</string>
+              <string>MSBFIRST</string>
+            </keywords>
+
+            <keywords id="Arduino Sketch Structure" scope="at-rule" casesensitive="no" useforautocomplete="yes" foldable="yes">
+              <string>loop</string>
+              <string>setup</string>
+            </keywords>
+            
+            <keywords id="Language keywords" scope="keyword" casesensitive="no" useforautocomplete="yes">
+              <string>void</string>
+              <string>boolean</string>
+              <string>char</string>
+              <string>unsigned</string>
+              <string>byte</string>
+              <string>int</string>
+              <string>word</string>
+              <string>long</string>
+              <string>float</string>
+              <string>double</string>
+              <string>string</string>
+              <string>array</string>
+              <string>bool</string>
+
+              <string>static</string>
+              <string>volatile</string>
+              <string>const</string>
+
+              <string>sizeof</string>
+
+              <string>if</string>
+              <string>else</string>
+              <string>for</string>
+              <string>switch</string>
+              <string>case</string>
+              <string>default</string>
+              <string>while</string>
+              <string>do</string>
+              <string>break</string>
+              <string>continue</string>
+              <string>return</string>
+              <string>goto</string>
+
+            </keywords>
+            <keywords id="Numbers" scope="style.value.numeric" useforautocomplete="no">
+				<regex>(?&lt;=[^[A-Za-z0-9]]|^)((([0-9]+\.[0-9]*)|(\.[0-9]+)([eE][+\-]?[0-9]+)?[fFlL]?)|((([1-9][0-9]*)|0[0-7]*|(0[xX][0-9a-fA-F]))(([uU][lL]?)|([lL][uU]?))?))(?=[^[A-Za-z0-9]]|$)</regex>
+            </keywords>
+            <state id="Includes and Definitions" scope="keyword.control" casesensitive="no" useforautocomplete="yes">
+			  <begin><regex>^#\w+\s+\w+.\w+</regex></begin>
+              <end><regex>[\s//]|[\n\r]</regex></end>
+            </state>
+
+            <state id="Comment" scope="comment">
+                <begin><regex>/\*</regex></begin>
+                <end><regex>\*/</regex></end>
+            </state>
+            
+            <state id="SingleComment" scope="comment">
+                <begin><regex>//.*</regex></begin>
+                <end><regex>[\n\r]</regex></end> 
+
+            </state>
+            
+        </default>
+        
+    </states>
+
+</syntax>
