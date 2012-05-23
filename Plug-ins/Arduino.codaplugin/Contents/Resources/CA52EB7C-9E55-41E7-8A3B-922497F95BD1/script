@@ -1,0 +1,2 @@
+cd "$CODA_BUNDLE_PATH/Support Files"
+osascript -e 'tell application "iTerm" to do script "\"Monitor\""'
