@@ -1,0 +1,3 @@
+[submodule "Plug-ins/PrettyJSON.codaplugin"]
+	path = Plug-ins/PrettyJSON.codaplugin
+	url = git@github.com:ngs/PrettyJSON.codaplugin.git
