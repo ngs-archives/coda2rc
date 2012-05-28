@@ -1,6 +1,0 @@
-#!/bin/bash
-DIR=`/usr/bin/dirname "$CODA_FILEPATH"`
-cd "$DIR"
-echo "<body style='background:#333;color:#eee;'><pre>"
-/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/make -e -f "$CODA_BUNDLE_PATH/Support Files/Makefile" upload 2>&1 > /dev/null
-echo "</pre></body>"

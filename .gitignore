@@ -2,3 +2,7 @@ WebpageIcons.db
 .DS_Store
 *.swp
 Sites/siteIndex.plist
+Logs
+Plug-ins/Creole.codaplugin
+Plug-ins/Markdown.codaplugin
+Plug-ins/Gist.codaplugin
