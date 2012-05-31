@@ -3,4 +3,8 @@ WebpageIcons.db
 *.swp
 Sites/siteIndex.plist
 Logs
-Plug-ins/*.codaplugin
+Plug-ins/Markdown.codaplugin
+Plug-ins/Arduino.codaplugin
+Plug-ins/Creole.codaplugin
+Plug-ins/Gist.codaplugin
+Plug-ins/Capitalize.codaplugin
