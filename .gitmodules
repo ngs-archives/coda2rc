@@ -4,3 +4,6 @@
 [submodule "Plug-ins/Objective-C.codaplugin"]
 	path = Plug-ins/Objective-C.codaplugin
 	url = git@github.com:ngs/Objective-C.codaplugin.git
+[submodule "Modes/CoffeeScript.mode"]
+	path = Modes/CoffeeScript.mode
+	url = git://github.com/nfiniteset/CoffeeScript.mode.git
