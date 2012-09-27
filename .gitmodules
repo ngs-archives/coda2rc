@@ -7,3 +7,6 @@
 [submodule "Modes/CoffeeScript.mode"]
 	path = Modes/CoffeeScript.mode
 	url = git://github.com/caseywebdev/CoffeeScript.mode.git
+[submodule "Plug-ins/PrettyXML.codaplugin"]
+	path = Plug-ins/PrettyXML.codaplugin
+	url = git@github.com:ngs/PrettyXML.codaplugin
