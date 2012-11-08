@@ -13,3 +13,6 @@
 [submodule "Modes/haml.mode"]
 	path = Modes/haml.mode
 	url = git://github.com/dreki/haml-mode-coda2.git
+[submodule "Plug-ins/TextUtils.codaplugin"]
+	path = Plug-ins/TextUtils.codaplugin
+	url = git@github.com:ngs/TextUtils.codaplugin
