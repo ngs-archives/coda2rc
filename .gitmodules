@@ -16,3 +16,6 @@
 [submodule "Plug-ins/TextUtils.codaplugin"]
 	path = Plug-ins/TextUtils.codaplugin
 	url = git@github.com:ngs/TextUtils.codaplugin
+[submodule "Modes/Markdown.mode"]
+	path = Modes/Markdown.mode
+	url = git://github.com/bobthecow/Markdown.mode.git
